@@ -61,7 +61,7 @@ project.afterEvaluate {
                 // You can then customize attributes of the publication as shown below.
                 groupId = 'com.github.xavijimenezmulet'
                 artifactId = 'save_null_extension_kotlin'
-                version = '1.0.3'
+                version = '1.0.5'
             }
         }
     }
