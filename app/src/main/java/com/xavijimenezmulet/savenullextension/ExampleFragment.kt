@@ -6,6 +6,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.navigation.fragment.findNavController
+import com.xavijimenezmulet.safenullextension.util.saveNull
 import com.xavijimenezmulet.savenullextension.databinding.FragmentFirstBinding
 import com.xavijimenezmulet.savenullextension.domain.entity.Example
 
@@ -48,6 +49,6 @@ class ExampleFragment : Fragment() {
 
     private fun initExample() {
         example = Example()
-        //val byte: Byte = example.byte.saveNull()
+        val byte: Byte = example.byte.saveNull()
     }
 }

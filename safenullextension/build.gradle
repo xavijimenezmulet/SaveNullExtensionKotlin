@@ -27,12 +27,6 @@ android {
             signingConfig signingConfigs.debug
         }
     }
-
-    variantFilter { variant ->
-        if (variant.buildType.name == 'release' || variant.buildType.name == 'debug') {
-            variant.setIgnore(true)
-        }
-    }
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
@@ -61,7 +55,7 @@ project.afterEvaluate {
                 // You can then customize attributes of the publication as shown below.
                 groupId = 'com.github.xavijimenezmulet'
                 artifactId = 'save_null_extension_kotlin'
-                version = '1.0.5'
+                version = '1.0.6'
             }
         }
     }
