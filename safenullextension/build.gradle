@@ -26,12 +26,6 @@ android {
             signingConfig signingConfigs.debug
         }
     }
-
-    variantFilter { variant ->
-        if (variant.buildType.name == 'release') {
-            variant.setIgnore(true)
-        }
-    }
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
@@ -55,12 +49,12 @@ project.afterEvaluate {
     publishing {
         publications {
             // Creates a Maven publication called "release".
-            productionRelease(MavenPublication) {
+            release(MavenPublication) {
 
                 // You can then customize attributes of the publication as shown below.
                 groupId = 'com.github.xavijimenezmulet'
                 artifactId = 'save_null_extension_kotlin'
-                version = '1.0.7'
+                version = '1.0.8'
             }
         }
     }
