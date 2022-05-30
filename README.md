@@ -77,5 +77,12 @@ private fun initExample() {
 The value of "text" will always have a value. It can be the string attribute of the Example class if it is not null.
 If it is, we have added a default value that says "not available" so the textView will always show a result.
 
+
+# ✔️Changelog
+
+### Version: 1.0
+
+  * Initial Build
+
 ## License
 [APACHE LICENSE 2.0](https://www.apache.org/licenses/LICENSE-2.0.txt)
