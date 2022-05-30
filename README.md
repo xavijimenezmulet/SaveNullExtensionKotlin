@@ -27,7 +27,7 @@ Step 2. Add the dependency:
 
 ```bash
 dependencies {
-	implementation "com.github.xavijimenezmulet:save_null_extension_kotlin:$last_version"
+	implementation "com.github.xavijimenezmulet:SaveNullExtensionKotlin:$last_version"
 }
 ```
 
