@@ -11,7 +11,7 @@
 
 This library is used to control an attribute if it comes to null, what it will do is remove that null and give it a default value. Ideal for dealing with business models where attributes can be nullable.
 
-## Installation
+## 💥Installation
 
 Step 1. Add it in your root build.gradle at the end of repositories:
 
@@ -31,7 +31,7 @@ dependencies {
 }
 ```
 
-## Usage
+## 💻Usage
 
 If you have a class where null attributes can come. The library helps prevent them in a single line without having to check them.
 Let's add an example class:
